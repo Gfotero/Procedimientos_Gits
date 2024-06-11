@@ -1,0 +1,25 @@
+Paso 1: Clonar el repositorio
+
+Abre la terminal y escribe el comando git clone seguido de la URL del repositorio que deseas clonar:
+
+git clone https://github.com/tu_usuario/tu_repositorio.git
+
+Despues de realizar cambios locales, vamos a actualizar el GitHub de esta manera:
+
+Paso 1: Agregar los cambios locales al staging
+
+Una vez que hayas realizado los cambios, agrega los cambios locales al staging con el comando git add:
+
+git add.
+
+Paso 2. Realiza un commit con el comando git commit, reemplaza "Mensaje de commit" con un mensaje descriptivo de los cambios que has realizado.:
+
+git commit -m "Mensaje de commit"
+
+Paso 3: Actualizar el repositorio en GitHub
+
+Finalmente, actualiza el repositorio en GitHub con el comando git push:
+
+git push origin master
+
+Reemplaza origin con el nombre del remoto que has configurado y master con la rama que deseas actualizar.
