@@ -1,0 +1,24 @@
+Paso 1: Abrir la terminal en el directorio que deseas convertir en repositorio
+
+Paso 2: Inicializar el repositorio con Git
+git init
+
+Paso 3: Agregar todos los archivos del directorio al repositorio
+git add .
+
+Paso 4: Realizar el primer commit
+
+git commit -m "Initial commit"
+
+Paso 5: Crear un nuevo repositorio en GitHub
+
+Inicia sesión en tu cuenta de GitHub y crea un nuevo repositorio público. Donde vas a guardar la informacion local.
+
+Paso 6: Agregar el repositorio remoto de GitHub
+
+Escribe el comando git remote add origin https://github.com/tu_usuario/tu_repositorio.git para agregar el repositorio remoto de GitHub al repositorio local. Reemplaza tu_usuario y tu_repositorio con tus credenciales de GitHub y el nombre del repositorio que acabas de crear.
+
+Paso 7: Subir el repositorio local a GitHub
+
+Escribe el comando git push -u origin master para subir el repositorio local a GitHub. El flag -u indica que se debe establecer la rama master como la rama predeterminada para el repositorio remoto.
+
